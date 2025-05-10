@@ -1,7 +1,7 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
-#include "../config.h"
+#include "../config.h"  // Подключаем общий конфиг
 
 typedef struct {
     int rows;
@@ -9,6 +9,7 @@ typedef struct {
     MATRIX_TYPE** data;
 } Matrix;
 
+// Основные функции
 Matrix* create_matrix(int rows, int cols);
 void free_matrix(Matrix* matrix);
 Matrix* read_matrix(const char* filename);
