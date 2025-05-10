@@ -1,11 +1,2 @@
 build/
-*.o
-*.swp
 docs/
-*.log
-*.out
-*.a
-*.so
-*.gcda
-*.gcno
-*.gcov

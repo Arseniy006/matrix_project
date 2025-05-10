@@ -1,6 +1,5 @@
 #include <CUnit/Basic.h>
-#include "../../include/matrix/matrix.h"
-
+#include "./../include/matrix/matrix.h"
 void test_matrix_creation(void) {
     Matrix* m = create_matrix(2, 3);
     CU_ASSERT_PTR_NOT_NULL(m);

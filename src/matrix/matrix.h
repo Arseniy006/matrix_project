@@ -1,7 +1,7 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
-#include "../config.h"
+#include "config.h"
 
 typedef struct {
     int rows;

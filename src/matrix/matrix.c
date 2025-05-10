@@ -31,7 +31,7 @@ Matrix* read_matrix(const char* filename) {
     while (fgets(line, sizeof(line), file)) {
         rows++;
         if (rows == 1) {
-            char* token = strtok(line, " \t\n");
+            const char* token = strtok(line, " \t\n");
             while (token) {
                 cols++;
                 token = strtok(NULL, " \t\n");
